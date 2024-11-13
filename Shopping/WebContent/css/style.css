@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/* common */
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 60%;
+	/* border: solid red; */
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.add {
+	display: block;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: 15%;
+}
+
+form {
+	margin-bottom: 30px;
+}
+
+
+form .flex {
+	display: flex;
+}
+
+.flex + .flex {
+	margin-top: 10px;
+}
+
+form .item {
+	width: 40%;
+	margin-left: 15%;
+}
+
+form a {
+	display: block;
+	margin-left: 5%;
+}
+
+
+.copy_text {
+	display: none;
+}
+
+.delete {
+	margin-top: 20px;
+	text-align: center;	
+}
+
+
+.copy {
+	width: fit-content;
+	margin: auto;
+}
